@@ -1,7 +1,7 @@
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication,QButtonGroup, QWidget, QPushButton, QVBoxLayout,QHBoxLayout, QLabel, QMessageBox,QRadioButton,QGroupBox
 from random import*
-class Question():
+class Question(): #кто не прочитал тот лох
     def __init__(self,question,right_answer,wrong1,wrong2,wrong3):
         self.question = question
         self.right_answer = right_answer
